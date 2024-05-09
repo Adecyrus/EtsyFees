@@ -1,0 +1,64 @@
+ body { margin:0;padding:0; }
+   <table width="100%" border="1">
+#calculator {
+  background-color: #F0EDE5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  text-align: center;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.input-fields div {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-fields label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.input-fields input, .input-fields select {
+  padding: 8px;
+}
+
+.input-fields button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  
+}
+
+.results {
+  margin-top: 20px;
+}
+    table {
+      width: 100%;
+      background-color: #F9FEFF;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    th, td {
+      padding: 5px;
+      text-align: left;
+    }
+    @media only screen and (max-width: 400px) {
+    /* horizontal scrollbar for tables if mobile screen */
+    .tablemobile {
+        overflow-x: auto;
+        display: block;
+    }
+}
